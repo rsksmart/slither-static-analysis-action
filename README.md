@@ -63,7 +63,7 @@ Extra slither params to be appended. By default the action runnins with: ```slit
 ## Example usage
 
 ```yaml
-uses: luisfontes19/slither-static-analysis-action@v0.3.4
+uses: rsksmart/slither-static-analysis-action@v0.3.4
 ```
 
 ## Full Action Example
@@ -79,9 +79,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Slither Static Analysis
-        uses: luisfontes19/slither-static-analysis-action@v0.3.2
+        uses: rsksmart/slither-static-analysis-action
         with:
-          slither-version: '0.6.13'
+          slither-version: '0.8.1' # for version <= 0.3.2 use slither-slitherVersion (default 0.6.14)
           run-npm-install: true
           high-threshold: 1
           medium-threshold: 1
