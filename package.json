@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@vercel/ncc": "^0.25.1",
-    "nodemon": "^2.0.6",
+    "nodemon": "^2.0.20",
     "npx": "^10.2.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.2"
